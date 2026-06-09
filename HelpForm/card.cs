@@ -28,6 +28,7 @@ namespace HelpForm
             lblUnit.Text = product.unit;
             lblSupplier.Text = product.supplier;
             lblPrice.Text = product.price.ToString();
+            lblDiscount.Text = product.discountPercent.ToString();
 
             if (string.IsNullOrWhiteSpace(product.picture))
             {

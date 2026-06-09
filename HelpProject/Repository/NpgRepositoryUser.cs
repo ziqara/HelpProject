@@ -11,7 +11,7 @@ namespace HelpProject.Repository
 {
     public class NpgRepositoryUser
     {
-        const string connStr = "Host=localhost;Port=5432;Database=DemoEx;Username=postgres;Password=228Egor1337;";
+        const string connStr = "Host=localhost;Port=5433;Database=DemoEx2;Username=postgres;Password=2509Egor1337;";
 
         public List<User> GetAllUsers()
         {
